@@ -1,0 +1,1787 @@
+{
+  "pageProps": {
+    "isoCode": "us",
+    "initialState": {
+      "applicationInfo": {
+        "country": {
+          "isoCode": "us",
+          "siteCode": "YOOX_US",
+          "nationId": 38,
+          "marketId": 19,
+          "currencyCode": "USD",
+          "language": "en",
+          "languageId": 19,
+          "languageTwoLetterIsoCode": "EN",
+          "season": "E",
+          "countryCode": "us",
+          "currencySign": "$"
+        },
+        "yooxFeatures": {
+          "FEATURE_RETAIL_PRICE": true
+        },
+        "channel": "WEB",
+        "mobile": false,
+        "xForwardedHost": "yoox.com",
+        "domain": {
+          "desktop": "https://www.yoox.com",
+          "images": "www.yoox.com",
+          "mobile": "https://mobile.yoox.com",
+          "media": "//www.yoox.com/media",
+          "sharedMedia": "//www.yoox.com/media/yoox/apps/shared"
+        },
+        "nav": {
+          "sesso": "D",
+          "sessoBambino": "D",
+          "lastQuery": "/us/women/shoes/shoponline/balenciaga_d?d=221&dept=shoeswomen&gender=D&page=1&attributes=%7B'hlshgh'%3A%5B'lwhlsndf'%5D%7D&season=X&clientabt=SmsMultiChannel_ON%2CmyooxNew_ON%2CMonetateOn_ON%2CYooxLogoP_ON"
+        },
+        "area": "men",
+        "section": "Home"
+      },
+      "messages": {
+        "meta": {
+          "men": "Men",
+          "metaDescription": "YOOX.COM - Exclusive items of Italian and international designers - Secure payments",
+          "metaTitleDefault": "YOOX Online Fashion Design Shopping",
+          "women": "Women",
+          "boys": "Boy",
+          "clothingmen": "Clothing",
+          "clothingwomen": "Clothing",
+          "designart": "DESIGN+ART",
+          "genderCollection_D": "Women's Collection",
+          "genderCollection_U": "Men's Collection",
+          "girls": "Girl",
+          "kids": "Kids",
+          "ofGender_D": "Women's",
+          "ofGender_U": "Men's",
+          "titleSeason_E": "Spring-Summer and Fall-Winter Collections",
+          "nation": "United States"
+        },
+        "main": {
+          "designart_title": "DESIGN+ART",
+          "homeDecor_title": "HOME DECOR+ART",
+          "kids_title": "KIDS",
+          "men_title": "MEN",
+          "topPicks_title": "TOP PICKS",
+          "women_title": "WOMEN",
+          "accessoriesmen": "Accessories",
+          "bagsaccwomen": "Accessories & Bags",
+          "clothingmen": "Clothing",
+          "clothingwomen": "Clothing",
+          "collboy_baby": "0-24 months",
+          "collboy_junior": "9-16 years",
+          "collboy_kid": "3-8 years",
+          "collgirl_baby": "0-24 months",
+          "collgirl_junior": "9-16 years",
+          "collgirl_kid": "3-8 years",
+          "designart": "DESIGN+ART",
+          "genderCollection_D": "Women's Collection",
+          "genderCollection_U": "Men's Collection",
+          "kids": "Kids",
+          "men": "Men",
+          "ofGender_D": "Women's",
+          "ofGender_U": "Men's",
+          "shoesmen": "Shoes",
+          "shoeswomen": "Shoes",
+          "titleSeason_E": "Spring-Summer and Fall-Winter Collections",
+          "women": "Women",
+          "babyAgeRange_title": "BABY 0-24 MONTHS",
+          "boys_btn": "BOYS",
+          "designer_title": "DESIGNERS",
+          "girls_btn": "GIRLS",
+          "juniorAgeRange_title": "JUNIOR 9-16 YEARS",
+          "kidsAgeRange_title": "KIDS 3-8 YEARS",
+          "newArrivals_title": "NEW ARRIVALS",
+          "newArrivalsBoys_title": "NEW ARRIVALS BOYS",
+          "newArrivalsGirls_title": "NEW ARRIVALS GIRLS",
+          "oneOfAKind_title": "ONE OF A KIND",
+          "recentlyViewed_title": "RECENTLY VIEWED",
+          "retailPriceDiscount": "@@discount@@% OFF",
+          "soldOut": "SOLD OUT",
+          "startingFrom": "",
+          "topDesigner_title": "TOP DESIGNERS",
+          "viewAll_btn": "VIEW ALL"
+        }
+      },
+      "recommendations": {
+        "NEW_ARRIVALS": {
+          "items": [
+            {
+              "brandId": 28997,
+              "brandname": "BURBERRY",
+              "code10": "12779346AV",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/12/12779346AV_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Shirts",
+              "macrocategoryCode": "cmc",
+              "microcategory": "Patterned shirt",
+              "microcategoryCode": "cmcfntsm",
+              "position": 0,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 327,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 327.23,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 567,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 567.4,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 42
+              },
+              "projectCodes": ["FWB"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": ["L"],
+              "url": "/us/12779346AV/item",
+              "widget": ""
+            },
+            {
+              "brandId": 285,
+              "brandname": "ALEXANDER MCQUEEN",
+              "code10": "45703381NK",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/45/45703381NK_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Handbags",
+              "macrocategoryCode": "brs",
+              "microcategory": "Cross-body bags",
+              "microcategoryCode": "brstrcll",
+              "position": 1,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 655,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 655.46,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 937,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 937.66,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 30
+              },
+              "projectCodes": ["FWB"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": [],
+              "url": "/us/45703381NK/item",
+              "widget": ""
+            },
+            {
+              "brandId": 453,
+              "brandname": "KENZO",
+              "code10": "46874986AG",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/46/46874986AG_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Accessories",
+              "macrocategoryCode": "ccssr",
+              "microcategory": "Hat",
+              "microcategoryCode": "cppll",
+              "position": 2,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 170,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 170.12,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 273,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 273.19,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 37
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": ["M"],
+              "url": "/us/46874986AG/item",
+              "widget": ""
+            },
+            {
+              "brandId": 8028,
+              "brandname": "McQ Alexander McQueen",
+              "code10": "12956627EA",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/12/12956627EA_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Shirts",
+              "macrocategoryCode": "cmc",
+              "microcategory": "Patterned shirt",
+              "microcategoryCode": "cmcfntsm",
+              "position": 3,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 233,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 233.16,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 364,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 364.25,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 35
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": ["XS", "S", "M", "L", "XL"],
+              "url": "/us/12956627EA/item",
+              "widget": ""
+            },
+            {
+              "brandId": 221,
+              "brandname": "BALENCIAGA",
+              "code10": "16174090TU",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/16/16174090TU_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Coats & Jackets",
+              "macrocategoryCode": "cpspll",
+              "microcategory": "Coat",
+              "microcategoryCode": "cpptt",
+              "position": 4,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 2258,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 2259.58,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 3094,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 3096.17,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 27
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": ["38", "40", "42"],
+              "url": "/us/16174090TU/item",
+              "widget": ""
+            },
+            {
+              "brandId": 7790,
+              "brandname": "VEJA",
+              "code10": "17422364UJ",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/17/17422364UJ_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Footwear",
+              "macrocategoryCode": "clztr",
+              "microcategory": "Sneakers",
+              "microcategoryCode": "snkrs5",
+              "position": 5,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 102,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 102.07,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 148,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 148.1,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 31
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": ["11"],
+              "url": "/us/17422364UJ/item",
+              "widget": ""
+            },
+            {
+              "brandId": 25821,
+              "brandname": "MARCELO BURLON",
+              "code10": "12961067HX",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/12/12961067HX_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Shirts",
+              "macrocategoryCode": "cmc",
+              "microcategory": "Denim shirt",
+              "microcategoryCode": "cmcjns1",
+              "position": 6,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 467,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 467.33,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 849,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 849.59,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 44
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": ["S", "M", "L"],
+              "url": "/us/12961067HX/item",
+              "widget": ""
+            },
+            {
+              "brandId": 15774,
+              "brandname": "JW ANDERSON",
+              "code10": "16165435GR",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/16/16165435GR_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Coats & Jackets",
+              "macrocategoryCode": "cpspll",
+              "microcategory": "Denim jacket",
+              "microcategoryCode": "gbbttjns",
+              "position": 7,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 721,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 721.5,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 1188,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 1188.83,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 39
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": ["M"],
+              "url": "/us/16165435GR/item",
+              "widget": ""
+            },
+            {
+              "brandId": 29198,
+              "brandname": "ONLY & SONS",
+              "code10": "16183151SR",
+              "department": "newarrivalsmen",
+              "imgUrl": "https://www.yoox.com/images/items/16/16183151SR_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Coats & Jackets",
+              "macrocategoryCode": "cpspll",
+              "microcategory": "Bomber",
+              "microcategoryCode": "bmbr1",
+              "position": 8,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 120,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 120.08,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                }
+              },
+              "projectCodes": ["FIS"],
+              "promoTags": [],
+              "saleLineId": "2268",
+              "sizes": ["S", "M", "L", "XL"],
+              "url": "/us/16183151SR/item",
+              "widget": ""
+            }
+          ],
+          "viewAll": {
+            "prefixes": ["men", "new arrivals"],
+            "placeholder": "shoponline",
+            "suffixes": [],
+            "querystring": {
+              "dept": "newarrivalsmen"
+            }
+          }
+        },
+        "ONE_OF_A_KIND": {
+          "items": [
+            {
+              "brandId": 125,
+              "brandname": "DIESEL",
+              "code10": "16081795RF",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/16/16081795RF_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Coats & Jackets",
+              "macrocategoryCode": "cpspll",
+              "microcategory": "Denim jacket",
+              "microcategoryCode": "gbbttjns",
+              "position": 0,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 219,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 219.15,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 702,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 702.49,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 68,
+                "yoox": {
+                  "transactional": {
+                    "amount": 406,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 406.28,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "yooxDiscountedPercentage": 46
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": ["prm_2211_SINGLE", "prm_2211_hall_med"],
+              "saleLineId": "1691",
+              "sizes": ["M"],
+              "url": "/us/16081795RF/item",
+              "widget": ""
+            },
+            {
+              "brandId": 1926,
+              "brandname": "COMME des GARÇONS SHIRT",
+              "code10": "12914385LM",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/12/12914385LM_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Shirts",
+              "macrocategoryCode": "cmc",
+              "microcategory": "Patterned shirt",
+              "microcategoryCode": "cmcfntsm",
+              "position": 1,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 322,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 322.23,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 688,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 688.48,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 53,
+                "yoox": {
+                  "transactional": {
+                    "amount": 461,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 461.32,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "yooxDiscountedPercentage": 30
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [
+                "prm_2211_hall_high",
+                "prm_2211_YDAY1_top",
+                "prm_2211_SINGLE"
+              ],
+              "saleLineId": "",
+              "sizes": ["L"],
+              "url": "/us/12914385LM/item",
+              "widget": ""
+            },
+            {
+              "brandId": 112,
+              "brandname": "VALENTINO",
+              "code10": "12921978SA",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/12/12921978SA_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Sweaters and Sweatshirts",
+              "macrocategoryCode": "mglr",
+              "microcategory": "Hooded sweatshirt",
+              "microcategoryCode": "flpcncpp2",
+              "position": 2,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 2270,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 2271.59,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 5792,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 5796.05,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 60,
+                "yoox": {
+                  "transactional": {
+                    "amount": 3243,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 3245.27,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "yooxDiscountedPercentage": 30
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [
+                "prm_2211_hall_low",
+                "prm_2211_YDAY1_top",
+                "prm_2211_SINGLE"
+              ],
+              "saleLineId": "",
+              "sizes": ["M"],
+              "url": "/us/12921978SA/item",
+              "widget": ""
+            },
+            {
+              "brandId": 13732,
+              "brandname": "MSGM",
+              "code10": "13784264LX",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/13/13784264LX_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Jeans and Denim",
+              "macrocategoryCode": "jns",
+              "microcategory": "Denim pants",
+              "microcategoryCode": "pntlnjns",
+              "position": 3,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 115,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 115.08,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 322,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 322.23,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 64,
+                "yoox": {
+                  "transactional": {
+                    "amount": 193,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 193.14,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "yooxDiscountedPercentage": 40
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [
+                "prm_NEWREDUCTION",
+                "prm_2211_YDAY2_denim",
+                "prm_2211_hall_high",
+                "prm_2211_SINGLE"
+              ],
+              "saleLineId": "",
+              "sizes": ["34"],
+              "url": "/us/13784264LX/item",
+              "widget": ""
+            },
+            {
+              "brandId": 453,
+              "brandname": "KENZO",
+              "code10": "12918534RP",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/12/12918534RP_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Shirts",
+              "macrocategoryCode": "cmc",
+              "microcategory": "Striped shirt",
+              "microcategoryCode": "cmcrgh",
+              "position": 4,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 184,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 184.13,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 402,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 402.28,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 54,
+                "yoox": {
+                  "transactional": {
+                    "amount": 263,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 263.18,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "yooxDiscountedPercentage": 30
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [
+                "prm_2211_hall_low",
+                "prm_2211_YDAY1_top",
+                "prm_2211_SINGLE"
+              ],
+              "saleLineId": "",
+              "sizes": ["XS"],
+              "url": "/us/12918534RP/item",
+              "widget": ""
+            },
+            {
+              "brandId": 15774,
+              "brandname": "JW ANDERSON",
+              "code10": "12907663TU",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/12/12907663TU_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Shirts",
+              "macrocategoryCode": "cmc",
+              "microcategory": "Patterned shirt",
+              "microcategoryCode": "cmcfntsm",
+              "position": 5,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 388,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 388.27,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 710,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 710.5,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 45
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [],
+              "saleLineId": "",
+              "sizes": ["36"],
+              "url": "/us/12907663TU/item",
+              "widget": ""
+            },
+            {
+              "brandId": 203,
+              "brandname": "MARNI",
+              "code10": "12904232HA",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/12/12904232HA_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Sweaters and Sweatshirts",
+              "macrocategoryCode": "mglr",
+              "microcategory": "Hooded sweatshirt",
+              "microcategoryCode": "flpcncpp2",
+              "position": 6,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 333,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 333.23,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 723,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 723.51,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 53,
+                "yoox": {
+                  "transactional": {
+                    "amount": 476,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 476.33,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "yooxDiscountedPercentage": 30
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": [
+                "prm_2211_hall_high",
+                "prm_2211_YDAY1_top",
+                "prm_2211_SINGLE"
+              ],
+              "saleLineId": "",
+              "sizes": ["38"],
+              "url": "/us/12904232HA/item",
+              "widget": ""
+            },
+            {
+              "brandId": 1133,
+              "brandname": "VALENTINO GARAVANI",
+              "code10": "45658936UU",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/45/45658936UU_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Handbags",
+              "macrocategoryCode": "brs",
+              "microcategory": "Backpack & fanny pack",
+              "microcategoryCode": "znmrsp",
+              "position": 7,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 715,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 715.5,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 1902,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 1903.33,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 62,
+                "yoox": {
+                  "transactional": {
+                    "amount": 1068,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 1068.75,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "yooxDiscountedPercentage": 33
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": ["prm_2211_SINGLE", "prm_2211_hall_med"],
+              "saleLineId": "1691",
+              "sizes": [],
+              "url": "/us/45658936UU/item",
+              "widget": ""
+            },
+            {
+              "brandId": 285,
+              "brandname": "ALEXANDER MCQUEEN",
+              "code10": "50282100XI",
+              "department": "men_oneofthekind",
+              "imgUrl": "https://www.yoox.com/images/items/50/50282100XI_14_f.jpg?impolicy=crop&width=306&height=390",
+              "is3rdParty": false,
+              "macrocategory": "Jewelry",
+              "macrocategoryCode": "gll",
+              "microcategory": "Cufflinks and Tie Clips",
+              "microcategoryCode": "gmll",
+              "position": 8,
+              "priceInfo": {
+                "discounted": {
+                  "transactional": {
+                    "amount": 219,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 219.15,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "full": {
+                  "transactional": {
+                    "amount": 435,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 435.3,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "discountedPercentage": 49,
+                "yoox": {
+                  "transactional": {
+                    "amount": 265,
+                    "currency": "$"
+                  },
+                  "normalized": {
+                    "amount": 265.19,
+                    "currency": "EUR"
+                  },
+                  "local": null
+                },
+                "yooxDiscountedPercentage": 17
+              },
+              "projectCodes": ["STOCK"],
+              "promoTags": ["prm_2211_YDAY1_acc", "prm_2211_SINGLE"],
+              "saleLineId": "1390",
+              "sizes": [],
+              "url": "/us/50282100XI/item",
+              "widget": ""
+            }
+          ],
+          "viewAll": {
+            "prefixes": ["men"],
+            "placeholder": "shoponline",
+            "suffixes": [],
+            "querystring": {
+              "dept": "men_oneofthekind"
+            }
+          }
+        }
+      },
+      "topDesigners": {
+        "men": [
+          {
+            "id": 378,
+            "name": "DSQUARED2",
+            "sortOrder": 0,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["dsquared2_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 378
+              }
+            }
+          },
+          {
+            "id": 25,
+            "name": "DOLCE & GABBANA",
+            "sortOrder": 1,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["dolce & gabbana_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 25
+              }
+            }
+          },
+          {
+            "id": 65,
+            "name": "ROBERTO CAVALLI",
+            "sortOrder": 2,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["roberto cavalli_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 65
+              }
+            }
+          },
+          {
+            "id": 50,
+            "name": "MAISON MARGIELA",
+            "sortOrder": 3,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["maison margiela_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 50
+              }
+            }
+          },
+          {
+            "id": 1889,
+            "name": "VERSACE",
+            "sortOrder": 4,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["versace_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 1889
+              }
+            }
+          },
+          {
+            "id": 221,
+            "name": "BALENCIAGA",
+            "sortOrder": 5,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["balenciaga_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 221
+              }
+            }
+          },
+          {
+            "id": 206,
+            "name": "CALVIN KLEIN",
+            "sortOrder": 6,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["calvin klein_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 206
+              }
+            }
+          },
+          {
+            "id": 63,
+            "name": "PRADA",
+            "sortOrder": 7,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["prada_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 63
+              }
+            }
+          },
+          {
+            "id": 42,
+            "name": "GUCCI",
+            "sortOrder": 8,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["gucci_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 42
+              }
+            }
+          },
+          {
+            "id": 77,
+            "name": "JIL SANDER",
+            "sortOrder": 9,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["jil sander_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 77
+              }
+            }
+          },
+          {
+            "id": 203,
+            "name": "MARNI",
+            "sortOrder": 10,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["marni_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 203
+              }
+            }
+          },
+          {
+            "id": 753,
+            "name": "SALVATORE FERRAGAMO",
+            "sortOrder": 11,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["salvatore ferragamo_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 753
+              }
+            }
+          },
+          {
+            "id": 942,
+            "name": "BRUNELLO CUCINELLI",
+            "sortOrder": 12,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["brunello cucinelli_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 942
+              }
+            }
+          },
+          {
+            "id": 150,
+            "name": "GIORGIO ARMANI",
+            "sortOrder": 13,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["giorgio armani_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 150
+              }
+            }
+          },
+          {
+            "id": 664,
+            "name": "BOTTEGA VENETA",
+            "sortOrder": 14,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["bottega veneta_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 664
+              }
+            }
+          },
+          {
+            "id": 112,
+            "name": "VALENTINO",
+            "sortOrder": 15,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["valentino_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 112
+              }
+            }
+          },
+          {
+            "id": 5361,
+            "name": "THOM BROWNE",
+            "sortOrder": 16,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["thom browne_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 5361
+              }
+            }
+          },
+          {
+            "id": 165,
+            "name": "POLO RALPH LAUREN",
+            "sortOrder": 17,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["polo ralph lauren_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 165
+              }
+            }
+          },
+          {
+            "id": 682,
+            "name": "NIKE",
+            "sortOrder": 18,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["nike_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 682
+              }
+            }
+          },
+          {
+            "id": 42641,
+            "name": "8 by YOOX",
+            "sortOrder": 19,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["8 by yoox_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 42641
+              }
+            }
+          },
+          {
+            "id": 23212,
+            "name": "GCDS",
+            "sortOrder": 20,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["gcds_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 23212
+              }
+            }
+          },
+          {
+            "id": 32300,
+            "name": "OFF-WHITE™",
+            "sortOrder": 21,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["off-white™_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 32300
+              }
+            }
+          },
+          {
+            "id": 24494,
+            "name": "SAINT LAURENT",
+            "sortOrder": 22,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["saint laurent_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 24494
+              }
+            }
+          },
+          {
+            "id": 28997,
+            "name": "BURBERRY",
+            "sortOrder": 23,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["burberry_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 28997
+              }
+            }
+          },
+          {
+            "id": 19295,
+            "name": "ACNE STUDIOS",
+            "sortOrder": 24,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["acne studios_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 19295
+              }
+            }
+          },
+          {
+            "id": 269,
+            "name": "STONE ISLAND",
+            "sortOrder": 25,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["stone island_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 269
+              }
+            }
+          },
+          {
+            "id": 201,
+            "name": "TOMMY HILFIGER",
+            "sortOrder": 26,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["tommy hilfiger_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 201
+              }
+            }
+          },
+          {
+            "id": 534,
+            "name": "LEVI'S",
+            "sortOrder": 27,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["levi's_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 534
+              }
+            }
+          },
+          {
+            "id": 26995,
+            "name": "JACQUEMUS",
+            "sortOrder": 28,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["jacquemus_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 26995
+              }
+            }
+          },
+          {
+            "id": 9717,
+            "name": "DRYKORN",
+            "sortOrder": 29,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["drykorn_d"],
+              "querystring": {
+                "dept": "men",
+                "d": 9717
+              }
+            }
+          },
+          {
+            "id": 253,
+            "name": "NEIL BARRETT",
+            "sortOrder": 30,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["neil barrett_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 253
+              }
+            }
+          },
+          {
+            "id": 208,
+            "name": "MOSCHINO",
+            "sortOrder": 31,
+            "url": {
+              "prefixes": ["men"],
+              "placeholder": "shoponline",
+              "suffixes": ["moschino_md"],
+              "querystring": {
+                "dept": "men",
+                "Md": 208
+              }
+            }
+          }
+        ]
+      },
+      "seoMeta": {
+        "title": {
+          "label": "H/T/dept-men",
+          "content": "YOOX Men | Online clothing store with the best brands"
+        },
+        "description": {
+          "label": "H/D/dept-men",
+          "content": "Discover the contemporary style of over 5,000 brands on YOOX: Apparel, shoes, bags and accessories | Secure payment | Fast and easy returns"
+        },
+        "keywords": {
+          "label": "H/K/dept-all",
+          "content": "Men - YOOX"
+        },
+        "canonical": {
+          "prefixes": ["men"]
+        },
+        "robots": "index,follow",
+        "hrefLangs": [
+          {
+            "countryCode": "AE",
+            "lang": "en-AE",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "AT",
+            "lang": "de-AT",
+            "canonical": {
+              "prefixes": ["herren"]
+            }
+          },
+          {
+            "countryCode": "AU",
+            "lang": "en-AU",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "BE",
+            "lang": "en-BE",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "CA",
+            "lang": "en-CA",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "CH",
+            "lang": "en-CH",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "CZ",
+            "lang": "en-CZ",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "DE",
+            "lang": "de-DE",
+            "canonical": {
+              "prefixes": ["herren"]
+            }
+          },
+          {
+            "countryCode": "ES",
+            "lang": "es-ES",
+            "canonical": {
+              "prefixes": ["hombre"]
+            }
+          },
+          {
+            "countryCode": "FR",
+            "lang": "fr-FR",
+            "canonical": {
+              "prefixes": ["homme"]
+            }
+          },
+          {
+            "countryCode": "GB",
+            "lang": "en-GB",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "GR",
+            "lang": "el-GR",
+            "canonical": {
+              "prefixes": ["άνδρας"]
+            }
+          },
+          {
+            "countryCode": "HK",
+            "lang": "en-HK",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "IT",
+            "lang": "it-IT",
+            "canonical": {
+              "prefixes": ["uomo"]
+            }
+          },
+          {
+            "countryCode": "JP",
+            "lang": "ja-JP",
+            "canonical": {
+              "prefixes": ["メンズ"]
+            }
+          },
+          {
+            "countryCode": "KR",
+            "lang": "ko-KR",
+            "canonical": {
+              "prefixes": ["남성"]
+            }
+          },
+          {
+            "countryCode": "LV",
+            "lang": "en-LV",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "NL",
+            "lang": "en-NL",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "SA",
+            "lang": "en-SA",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          },
+          {
+            "countryCode": "RU",
+            "lang": "ru-RU",
+            "canonical": {
+              "prefixes": ["для мужчин"]
+            }
+          },
+          {
+            "countryCode": "US",
+            "lang": "en-US",
+            "canonical": {
+              "prefixes": ["men"]
+            }
+          }
+        ],
+        "mediaAlternates": ["only screen and (max-width: 640px)"]
+      },
+      "banners": {
+        "BNR_PROMO": {
+          "slotname": "BNR_PROMO",
+          "title": "SINGLES' DAY: UP TO 90% OFF ",
+          "subtitle": "",
+          "src": "https://www.yoox.com/images/yoox80/banners/6965_2_Premium_DM.png?634485886869569819",
+          "src_mobi": "",
+          "link": "/us/men/shoponline?dept=mprm_2211sngld",
+          "linktext": "Ends 11/11",
+          "link2": "",
+          "linktext2": "",
+          "width": "1379",
+          "height": "67"
+        },
+        "BNR_EDGE_1": {
+          "slotname": "BNR_EDGE_1",
+          "title": "LIGHTS ON!",
+          "subtitle": "Enter to find the perfect present",
+          "src": "https://www.yoox.com/images/yoox80/banners/6824_2_XmasLaunch_WM_Main.jpg?634485886869569819",
+          "src_mobi": "https://mobile.yoox.com/images/yoox80/banners/6824_2_XmasLaunch_WM_MainMob.png?634485886869569819",
+          "link": "/us/project/giftguide",
+          "linktext": "LET THE SHOW BEGIN",
+          "link2": "",
+          "linktext2": "",
+          "width": "1380",
+          "height": "637"
+        },
+        "BNR_TOP_1": {
+          "slotname": "BNR_TOP_1",
+          "title": "UP TO 70%, 80% & 90% OFF ",
+          "subtitle": "Ends November 11th ",
+          "src": "https://www.yoox.com/images/yoox80/banners/6965_2_HL_DM_US.png?634485886869569819",
+          "src_mobi": "",
+          "link": "/us/men/shoponline?dept=mprm_2211sngld",
+          "linktext": "SHOP NOW",
+          "link2": "",
+          "linktext2": "",
+          "width": "430",
+          "height": "600"
+        },
+        "BNR_TOP_2": {
+          "slotname": "BNR_TOP_2",
+          "title": "COOL COATS",
+          "subtitle": "Puffer jackets and more to keep you warm ",
+          "src": "https://www.yoox.com/images/yoox80/banners/6824_1_FocusOnJacket_M_HL.jpg?634485886869569819",
+          "src_mobi": "",
+          "link": "/us/men/shoponline?dept=mmrc_2211pdddjckt",
+          "linktext": "SHOP NOW",
+          "link2": "",
+          "linktext2": "",
+          "width": "430",
+          "height": "600"
+        },
+        "BNR_TRIS_1": {
+          "slotname": "BNR_TRIS_1",
+          "title": "HUGO",
+          "subtitle": "Express yourself",
+          "src": "https://www.yoox.com/images/yoox80/banners/6825_1_Hugo_Tris_M.jpg?634485886869569819",
+          "src_mobi": "",
+          "link": "/us/men/shoponline?dept=mmrc_2022hg",
+          "linktext": "",
+          "link2": "",
+          "linktext2": "",
+          "width": "473",
+          "height": "660"
+        },
+        "BNR_TRIS_2": {
+          "slotname": "BNR_TRIS_2",
+          "title": "MONTBLANC",
+          "subtitle": "It's gifting season!",
+          "src": "https://www.yoox.com/images/yoox80/banners/6825_6_Montblanc_M_Tris.jpg?634485886869569819",
+          "src_mobi": "",
+          "link": "/us/project/montblanc",
+          "linktext": "",
+          "link2": "",
+          "linktext2": "",
+          "width": "473",
+          "height": "660"
+        },
+        "BNR_TRIS_3": {
+          "slotname": "BNR_TRIS_3",
+          "title": "BOSS",
+          "subtitle": "Be your own BOSS",
+          "src": "https://www.yoox.com/images/yoox80/banners/6825_1_Boss_M_Tris.jpg?634485886869569819",
+          "src_mobi": "",
+          "link": "/us/project/boss",
+          "linktext": "",
+          "link2": "",
+          "linktext2": "",
+          "width": "473",
+          "height": "660"
+        },
+        "BNR_GALLERY": {
+          "slotname": "BNR_GALLERY",
+          "title": "8 BY YOOX",
+          "subtitle": "Create your look with the FW 22-23 collection",
+          "src": "https://www.yoox.com/images/yoox80/banners/6833_1_8byYoox_Special_WM.png?634485886869569819",
+          "src_mobi": "https://mobile.yoox.com/images/yoox80/banners/6833_1_8byoox_FW22_HL_WM.jpg?634485886869569819",
+          "link": "/us/men/shoponline?dept=gm8byooxfw",
+          "linktext": "SHOP NOW",
+          "link2": "/us/project/8byYOOX",
+          "linktext2": "GET INSPIRED",
+          "width": "930",
+          "height": "660"
+        },
+        "BNR_BOTTOM_1": {
+          "slotname": "BNR_BOTTOM_1",
+          "title": "THERE’S NO PLACE LIKE HOME",
+          "subtitle": "Discover the new selection of interior design",
+          "src": "https://www.yoox.com/images/yoox80/banners/6769_1_DesignArtHomedecor_WM_Bottom.png?634485886869569819",
+          "src_mobi": "",
+          "link": "/us/design+art/shoponline?dept=design",
+          "linktext": "SHOP NOW",
+          "link2": "",
+          "linktext2": "",
+          "width": "690",
+          "height": "637"
+        },
+        "BNR_BOTTOM_2": {
+          "slotname": "BNR_BOTTOM_2",
+          "title": "SMELLS LIKE TEEN SPIRIT ",
+          "subtitle": "90s grunge and punk-rock details",
+          "src": "https://www.yoox.com/images/yoox80/banners/6895_1_GenZ_M_Bottom.jpg?634485886869569819",
+          "src_mobi": "",
+          "link": "/us/project/hi_guyz",
+          "linktext": "EXPLORE",
+          "link2": "/us/men/shoponline?dept=mmrc_2210grngrmnc",
+          "linktext2": "SHOP NOW",
+          "width": "690",
+          "height": "637"
+        }
+      }
+    },
+    "lang": null,
+    "langLegacy": null,
+    "legacy": {},
+    "cookies": "YEDGESESSION=4f8d2c31736d00004ffd6963dd010000a7520100; akacd_RWASP-default-phased-release=3845343310~rv=2~id=710f0e72898edeb277372e5b602ede55; PIM-SESSION-ID=frRbRlEsZUXm7SPY; rxVisitor=1667890512175VGEK52MILEJC621VLAA689TUJSQAHE9K; optimizelyEndUserId=oeu1667890513313r0.5253977363036721; FEATURE_DISABLED_BAYNOTE=true; USERINFO=SESSO=D&SESSOBAMBINO=D; OLDVISIT=1; SESSIONS=FIRSTTIMEUSER=1; LAYERFIRSTVISIT=LAYERFIRSTVISIT=True; dtCookie=v_4_srv_2_sn_1E86FF74CEPU2A5RM6MAILCCK3QS38EO_perc_100000_ol_0_mul_1_app-3A8caa4d99ff5d944a_1; tc_YAB_test=UpgradeV1vsV2_B; isp=; _gcl_au=1.1.1775395967.1667890516; rskxRunCookie=0; rCookie=2rnmu49gndd4on22z1bs7ala7uy6gm; _scid=30f2e310-c813-48aa-a37f-75a38bfcc159; _ga=GA1.1.273340908.1667890517; yOrbRD=guid%3Dde98b7d2-97c0-40b5-8e46-7dd6aeaaf620; ORA_FPC=id=2d65fcc0a7b6a1428fa1667870718041; _pin_unauth=dWlkPVpUVXpPV05oTlRRdE5XUXdOaTAwTnpVekxXRXhZV010TVRJME16azVNemhpWW1FNQ; rmStore=amid:40584; ABTEST=%7b%22AbTests%22%3a%5b%7b%22Name%22%3a%22SmsMultiChannel%22%2c%22Mode%22%3a%22Auto%22%2c%22Enabled%22%3a%22on%22%2c%22Threshold%22%3a%22100%22%7d%2c%7b%22Name%22%3a%22myooxNew%22%2c%22Mode%22%3a%22Auto%22%2c%22Enabled%22%3a%22on%22%2c%22Threshold%22%3a%22100%22%7d%2c%7b%22Name%22%3a%22MonetateOn%22%2c%22Mode%22%3a%22Auto%22%2c%22Enabled%22%3a%22on%22%2c%22Threshold%22%3a%22100%22%7d%2c%7b%22Name%22%3a%22YooxLogoP%22%2c%22Mode%22%3a%22Auto%22%2c%22Enabled%22%3a%22on%22%2c%22Threshold%22%3a%22100%22%7d%5d%2c%22Reloaded%22%3afalse%2c%22ReloadedTime%22%3anull%7d; NAVIGATED=1; TRACKME_CAT=; mn_u=5.309556493.1667890602826; VISIT=TSKAY=3FD17CD7&NAZIONE=UNITED+STATES&ID%5FNAZIONE=38&ID%5FMERCATO=19&SIGLA%5FVALUTA=%24&CURRENCYCODE=USD&REFERENCE%5FCURRENCYCODE=USD&ID%5FMERCATO%5FPER%5FLISTINO=19&MERCATO%5FPATH=%2Fus%2F&VALUTA%5FID=22&DYN%5FPATH=%2Fus%2F&SITE%5FCODE=YOOX%5FUS&ANONYMOUS%5FCHECKOUT=True&NAZIONE%5FISO=US&WAREHOUSES=2715%2C2805%2C4800%2C20611%2C70%2C271&TWOLETTERISOCODE=EN&LASTQUERY=%2Fus%2Fwomen%2Fshoes%2Fshoponline%2Fbalenciaga%5Fd%3Fd%3D221%26dept%3Dshoeswomen%26gender%3DD%26page%3D1%26attributes%3D%257B'hlshgh'%253A%255B'lwhlsndf'%255D%257D%26season%3DX%26clientabt%3DSmsMultiChannel%5FON%252CmyooxNew%5FON%252CMonetateOn%5FON%252CYooxLogoP%5FON; AKA_A2=A; bm_sz=B45D1157A8412897A58B331866CCE0EA~YAAQT40sMXODPx2EAQAAroDrVxF2snC68VPeWbgmIvlc05gnqV/ZhNIag7WALKebG0MXlf4F68IZaUbzzWBpF0yB1B3bqEW9OXapdOTdXYHe2mgrgN1N5OPscftPQXUxqQ6b0TlaPTvyOfD2rfTYMrZilKT6VNfx1/DGOinhQl/kSrJ1uz6mLziuQkxuiNZqOWag+rPvpbgsTOkYJAN7PWEXe1/obdkIHGIiuYe6kwmz/dJxpATFJP7mGwY/8NpXNRKdRL2BOj+vZU/PfWjeHBeKMgOAf477Q5uuXy+GBCun~3228739~3490104; bm_mi=53A4E1C97E6A6B1C074D4152AE27F808~YAAQT40sMZ2DPx2EAQAAi4TrVxFuiRSFw5f3uK+qNZAWGm3QqVWsFSVkq26PMGizXjgZnJ2PVIbD4Ic/nfnVzOYleioRM0yFEAnQ/w97+X7Lnmgii31bOXgLUrPClbkLdsoDHWoLLqi5Tnn/own7bunIUPeMDRC9083/kCO8gdE0jM6ijkM596ehNBZnc5pTJ/JqIQfon286XkoHFsk9R2TXfnv3NUFinpScPhI/AO91olTI1eWzeRiJUsjzGDTJNxGYr9pDhvf9i/qLixKpHq/s2bYo87iKnZHO3SU13gd9ZA2SixWcp3jwwCg+gMFCqII=~1; rxvt=1667924173407|1667922373407; dtPC=2$522373398_622h1vHSNKVWIKCELJRKKPJHAHUPVFUASRINMB-0; _abck=47A4D4A7D47077181DDDE4DDFBE0B851~0~YAAQT40sMf6EPx2EAQAAXrTrVwhjS98Whic13AaaI0tsxOW8tlzqaBBkUpTyehYA+Ni6FPNFc0vGPl8xEc03eeFOD8TTkg30suQ20T5cd0RgFO0rfjnuKljXvQlevQKb19/gOGrxs+A4mTNH2xhZjwmO6eB2h6xeMso7d0rQ1QcSe3PCCc384dX3mdsJsr8Bz/JaZcM4y2XUyuh2VxqgzVEecC5LHI+9t11Q/g3irMHHFCVSIqOq3nHWofUjeHVGhYe99HITuncebwZotFXWSp2o7iRkOtcGW7+Cmg1Oms5bYR3MxhRk8m752wwrQJSLZ0IXEwBQUmnzaR20aB/kvriNtS3ZgM8FVXXgc6HOF416v/X5w8AfVr7nOQBta5iXAF1ILYmnc41QxiwRlSetG4es5oE/KoU=~-1~-1~1667925870; TS01237c14=01996ca1bdf9336ce612db471043f2047c4ccfb406c6a6e85f11e16df57c10cbf64596dc4b261a62501b19847fde54d6e43ffdf30f; lastRskxRun=1667922380055; _uetsid=4c845ae05f3211ed9ad71b4574648c40; _uetvid=4c84a7405f3211edafadbff1f6319b43; ak_bmsc=0BB9DB5FB13ED0B065312B7C054D3AF9~000000000000000000000000000000~YAAQT40sMfOFPx2EAQAAUc7rVxFojQnfRMGgJp80DD2NrqRFHXSA7T734Is3LBTa9LTZs9aiDvMT5643KszvBKF6Nz7w81Q71eEET/lR+i7gVCRjXNaj5Xr7b/y+OHLmGFEpjkZbRrM6CP3HOj0/cRm8YzJnZCDBTGNH3dqzgPAnlqjEaWZq6ekCuPCeii/HocFzcIbvvRDIY6UTNL9xv+snQ0vRSwVJrhyvLAec4e2xfalT44F4eVspQ/Oy68FbTO3wbm1t481DP3b+WYMdT+/35jR266YhBMjiQK9blegKCutVD2eTI6NRD86MSwNprjbWIP0MW54zXz1JZYTorOaYpwxYBBC17kYx4i0uaxNBMMHhBnAuryE/NUcaBmmSoBh4JoXkTIzQv3CNU0IgPbyi1zDnQc9Kz9OwhCvVfZY=; _ga_JPNZR0P362=GS1.1.1667922383.2.0.1667922383.60.0.0; bm_sv=B14ADD327C6E87B769817A2AF24F2A1E~YAAQT40sMcuKPx2EAQAAwobsVxEPLkwMH2JNCl6bEkxWBtR47g33ZnGE/ce2uVnTS1NVHcHkf9SbWqgevF8vvA+JP7ehTmr+Ar6o1VgQHAX/kU82spwzW+5D1moUUhRKdA7VZbjetfEpSwHk5a43oX1v+tP1k020hZlDZ2VQk6NhtWb7jp1bFLI1gaiZ+NIJavZROd2u0yeyOnRzHKrFpQZErGvt3bREvzkuzuTmCR4uxNaCvgYgGHTClTr0cQ==~1"
+  },
+  "__N_SSP": true
+}
