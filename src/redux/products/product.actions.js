@@ -8,7 +8,7 @@ import {
 export const getProducts = () => async (dispatch) => {
   dispatch({ type: GET_PRODUCTS_REQUEST });
   try {
-    let { data } = await axios.get("https://fakestoreapi.com/products");
+    let { data } = await axios.get("http://localhost:8080/products");
     dispatch({ type: GET_PRODUCTS_SUCCESS, payload: data });
   } catch (e) {
     dispatch({ type: GET_PRODUCTS_ERROR });

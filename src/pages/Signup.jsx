@@ -6,7 +6,6 @@ import {
   Button,
   Text,
   Center,
-  FormHelperText,
   //   Checkbox,
   //   Select,
 } from "@chakra-ui/react";
@@ -14,28 +13,34 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 
 import { useFormik } from "formik";
-import { login } from "../redux/auth/auth.actions";
+import { login, signup } from "../redux/auth/auth.actions";
 import { useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
-const Login = () => {
-  const { isAuth, isLoading, isError } = useSelector((store) => store.auth);
+const Signup = () => {
+  const { isSignedUp, isSignUpLoading, isSignUpError } = useSelector(
+    (store) => store.auth
+  );
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const formik = useFormik({
     initialValues: {
       email: "",
       password: "",
+      type: "customer",
+      //   married: false,
+      //   country: "",
     },
     onSubmit: (values) => {
-      dispatch(login(values));
+      console.log(values);
+      dispatch(signup(values));
     },
   });
   useEffect(() => {
-    if (isAuth) {
-      navigate("/");
+    if (isSignedUp) {
+      navigate("/login");
     }
-  }, [isAuth]);
+  }, [isSignedUp]);
 
   return (
     <Center width="100%">
@@ -63,27 +68,9 @@ const Login = () => {
               value={formik.values.password}
             />
           </FormControl>
-          {/* <Checkbox
-          name="married"
-          onChange={formik.handleChange}
-          value={formik.values.married}
-        >
-          Married
-        </Checkbox>
-
-        <Select
-          name="country"
-          onChange={formik.handleChange}
-          value={formik.values.country}
-          placeholder="select your country"
-        >
-          <option value="india">india</option>
-          <option value="nepal">nepal</option>
-          <option value="china">china</option>
-        </Select> */}
           <Button
-            loadingText="Singning in"
-            isLoading={isLoading}
+            isLoading={isSignUpLoading}
+            loadingText="Signing Up"
             size="lg"
             mt={6}
             type="submit"
@@ -91,12 +78,14 @@ const Login = () => {
           >
             Login
           </Button>
-          {isError ? <Text>Something went wrong.Please try Again</Text> : null}
         </form>
+        {isSignUpError ? (
+          <Text>Something went wrong whilt signing up</Text>
+        ) : null}
+        <Link to="/login">login</Link>
       </Box>
-      <Link to="/signup">signup</Link>
     </Center>
   );
 };
 
-export default Login;
+export default Signup;

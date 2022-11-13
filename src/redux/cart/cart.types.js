@@ -1,3 +1,10 @@
 export const ADD_TO_CART = "cart/add";
 export const REMOVE_FROM_CART = "cart/remove";
 export const UPDATE_CART = "cart/update";
+export const ADD_TO_CART_LOADING = "cart/add/loading";
+export const REMOVE_FROM_CART_LOADING = "cart/remove/loading";
+export const UPDATE_CART_LOADING = "cart/update/loading";
+export const ADD_TO_CART_ERROR = "cart/add/error";
+export const REMOVE_FROM_CART_ERROR = "cart/remove/error";
+export const UPDATE_CART_ERROR = "cart/update/error";
+export const RESET_CART = "cart/reset";

@@ -3,6 +3,9 @@ import {
   AUTH_LOGIN_REQUEST,
   AUTH_LOGIN_SUCCESS,
   AUTH_LOGOUT,
+  AUTH_SIGNUP_ERROR,
+  AUTH_SIGNUP_REQUEST,
+  AUTH_SIGNUP_SUCCESS,
 } from "./auth.types";
 
 const token = localStorage.getItem("token") || "";
@@ -11,10 +14,37 @@ const initState = {
   isLoading: false,
   isError: false,
   token: token,
+  isSignedUp: false,
+  isSignUpLoading: false,
+  isSignUpError: false,
 };
 
 export const authReducer = (state = initState, { type, payload }) => {
   switch (type) {
+    case AUTH_SIGNUP_REQUEST: {
+      return {
+        ...state,
+        isSignedUp: false,
+        isSignUpLoading: true,
+        isSignUpError: false,
+      };
+    }
+    case AUTH_SIGNUP_ERROR: {
+      return {
+        ...state,
+        isSignedUp: false,
+        isSignUpLoading: false,
+        isSignUpError: true,
+      };
+    }
+    case AUTH_SIGNUP_SUCCESS: {
+      return {
+        ...state,
+        isSignedUp: true,
+        isSignUpLoading: false,
+        isSignUpError: false,
+      };
+    }
     case AUTH_LOGIN_REQUEST: {
       localStorage.removeItem("token");
       return {
@@ -32,7 +62,7 @@ export const authReducer = (state = initState, { type, payload }) => {
         isAuth: true,
         isLoading: false,
         isError: false,
-        token: payload.token,
+        token: payload,
       };
     }
     case AUTH_LOGIN_ERROR: {

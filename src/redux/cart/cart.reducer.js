@@ -1,4 +1,9 @@
-import { ADD_TO_CART, REMOVE_FROM_CART, UPDATE_CART } from "./cart.types";
+import {
+  ADD_TO_CART,
+  REMOVE_FROM_CART,
+  RESET_CART,
+  UPDATE_CART,
+} from "./cart.types";
 
 const initState = {
   cartItems: [],
@@ -28,6 +33,11 @@ export const cartReducer = (state = initState, { type, payload }) => {
         cartItems: state.cartItems.map((c) =>
           c.id === payload.id ? { ...c, count: payload.count } : c
         ),
+      };
+    }
+    case RESET_CART: {
+      return {
+        initState,
       };
     }
     default: {

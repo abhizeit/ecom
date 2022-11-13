@@ -34,15 +34,7 @@ const Navbar = () => {
   };
 
   return (
-    <Box
-      px={16}
-      py={2}
-      position="sticky"
-      top="0px"
-      bg="white"
-      zIndex="1"
-      mb={6}
-    >
+    <Box px={4} py={2} position="sticky" top="0px" bg="white" zIndex="1" mb={6}>
       <Flex>
         <Link to="/home">
           <Image src={logo} height="50px" width="100px" />
