@@ -7,4 +7,7 @@ export const UPDATE_CART_LOADING = "cart/update/loading";
 export const ADD_TO_CART_ERROR = "cart/add/error";
 export const REMOVE_FROM_CART_ERROR = "cart/remove/error";
 export const UPDATE_CART_ERROR = "cart/update/error";
+export const GET_CART_REQUEST = "cart/get/request";
+export const GET_CART_SUCCESS = "cart/get/success";
+export const GET_CART_ERROR = "cart/get/error";
 export const RESET_CART = "cart/reset";

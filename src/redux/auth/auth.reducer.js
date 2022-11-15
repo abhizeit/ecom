@@ -14,7 +14,6 @@ const initState = {
   isLoading: false,
   isError: false,
   token: token,
-  isSignedUp: false,
   isSignUpLoading: false,
   isSignUpError: false,
 };
@@ -32,15 +31,16 @@ export const authReducer = (state = initState, { type, payload }) => {
     case AUTH_SIGNUP_ERROR: {
       return {
         ...state,
-        isSignedUp: false,
         isSignUpLoading: false,
         isSignUpError: true,
       };
     }
     case AUTH_SIGNUP_SUCCESS: {
+      localStorage.setItem("token", payload);
       return {
         ...state,
-        isSignedUp: true,
+        isAuth: true,
+        token: payload,
         isSignUpLoading: false,
         isSignUpError: false,
       };

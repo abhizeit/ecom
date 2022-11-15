@@ -34,7 +34,7 @@ export const signup = (payload) => async (dispatch) => {
       payload
     );
     if (!data.error) {
-      dispatch({ type: AUTH_SIGNUP_SUCCESS });
+      dispatch({ type: AUTH_SIGNUP_SUCCESS, payload: data.token });
     } else {
       dispatch({ type: AUTH_SIGNUP_ERROR });
     }

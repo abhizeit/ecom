@@ -32,7 +32,7 @@ const Product = ({
         size="lg"
         onClick={() => handleCart(_id)}
       >
-        {inTheCart ? "remove from cart" : "add to cart"}
+        {inTheCart ? "Go to bag" : "add to cart"}
       </Button>
       <IconButton
         borderRadius="50%"

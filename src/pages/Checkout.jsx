@@ -17,7 +17,11 @@ import {
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { removeFromCart, updateCart } from "../redux/cart/cart.actions";
+import {
+  getCartItems,
+  removeFromCart,
+  updateCart,
+} from "../redux/cart/cart.actions";
 import { MdDelete } from "react-icons/md";
 import EmptyCart from "../components/EmptyCart";
 import { useNavigate } from "react-router-dom";
@@ -27,6 +31,7 @@ const Checkout = () => {
   const { cartItems } = useSelector((store) => store.cart);
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  console.log(cartItems);
 
   const getcartTotal = () =>
     cartItems
@@ -35,8 +40,9 @@ const Checkout = () => {
       .toFixed(2);
 
   useEffect(() => {
+    dispatch(getCartItems());
     setCartTotal(getcartTotal());
-  }, [cartItems]);
+  }, []);
 
   if (!cartItems.length) {
     return <EmptyCart />;
@@ -50,11 +56,11 @@ const Checkout = () => {
         {cartItems.map((c) => (
           <Flex direction={["column", "row"]}>
             <Box h="300px" padding={6}>
-              <Image width="100%" height="80%" src={c.image} />
+              <Image width="100%" height="80%" src={c.product.image} />
             </Box>
             <Box padding={6}>
               <VStack>
-                <Text>{c.title.substring(0, 40) + "..."}</Text>
+                <Text>{c.product.title.substring(0, 40) + "..."}</Text>
                 <HStack>
                   <Text>Qty</Text>
                   <Select
@@ -85,15 +91,11 @@ const Checkout = () => {
                     </option>
                   </Select>
                 </HStack>
-                <Text>{(c.price * c.count).toFixed(2)}</Text>
+                {/* <Text>{(c.price * c.count).toFixed(2)}</Text> */}
                 <Button
-                  // position="relative"
-                  // right="10px"
-                  // top="10px"
                   width="100%"
                   onClick={() => {
-                    console.log(c.id);
-                    dispatch(removeFromCart({ id: c.id }));
+                    dispatch(removeFromCart({ id: c._id }));
                   }}
                   leftIcon={<MdDelete />}
                 >

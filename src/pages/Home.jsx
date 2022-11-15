@@ -2,7 +2,7 @@ import { Box, SimpleGrid, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../redux/products/product.actions";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 import Product from "../components/Product";
 
@@ -10,18 +10,21 @@ import {
   addToWishlist,
   removeFromWishlist,
 } from "../redux/wishlist/wishlist.actions";
-import { addToCart, removeFromCart } from "../redux/cart/cart.actions";
+import {
+  addToCart,
+  getCartItems,
+  removeFromCart,
+} from "../redux/cart/cart.actions";
 import LoadingSkeleton from "../components/LoadingSkeleton";
 import Pagination from "../components/Pagination";
 
 const Home = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  console.log("hello");
-  console.log(searchParams);
   const { products, isLoading } = useSelector((store) => store.product);
   const { wishlist } = useSelector((store) => store.wishlist);
   const { cartItems } = useSelector((state) => state.cart);
   const [page, setPage] = useState(Number(searchParams.get("page")) || 1);
+  const navigate = useNavigate();
 
   const dispatch = useDispatch();
 
@@ -32,15 +35,16 @@ const Home = () => {
       : dispatch(addToWishlist(products.find((p) => p._id === id)));
   };
   const handleCart = (id) => {
-    let cartProduct = cartItems.find((w) => w._id === id);
-    cartProduct?._id === id
-      ? dispatch(removeFromCart(cartProduct))
+    let cartProduct = cartItems.find((w) => w.product._id === id);
+    cartProduct
+      ? navigate("/checkout")
       : dispatch(
           addToCart({ ...products.find((p) => p._id === id), quantity: 1 })
         );
   };
 
   useEffect(() => {
+    dispatch(getCartItems());
     dispatch(getProducts(page));
     setSearchParams({ page });
   }, [page]);
@@ -50,6 +54,7 @@ const Home = () => {
   const hanldePage = (val) => {
     setPage(page + val);
   };
+
   return (
     <Box width="90%" m="auto">
       <SimpleGrid columns={{ sm: 1, md: 2, lg: 3, xl: 3 }} spacing={16}>
@@ -60,10 +65,12 @@ const Home = () => {
               title={product.title}
               image={product.image}
               price={product.price}
-              inTheCart={cartItems.find((c) => c._id === product._id)}
+              inTheCart={cartItems.find((c) => c.product._id === product._id)}
               handleCart={handleCart}
               handleWishList={handleWishList}
-              inThewishList={wishlist.find((w) => w._id === product._id)}
+              inThewishList={wishlist.find(
+                (w) => w.product._id === product._id
+              )}
             />
           </Box>
         ))}
